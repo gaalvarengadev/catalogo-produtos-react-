@@ -1,0 +1,61 @@
+.form-produto {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.form-produto__titulo {
+  margin: 0;
+  font-size: 1.4rem;
+  color: #0f172a;
+}
+
+.form-produto__campo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.form-produto__campo label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #334155;
+}
+
+.form-produto__campo input,
+.form-produto__campo textarea {
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font: inherit;
+}
+
+.form-produto__campo input:focus,
+.form-produto__campo textarea:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 1px;
+}
+
+.form-produto__erro {
+  color: #b91c1c;
+  font-size: 0.85rem;
+}
+
+.form-produto__botao {
+  padding: 0.7rem;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: #fff;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.form-produto__botao:hover {
+  background: #1d4ed8;
+}

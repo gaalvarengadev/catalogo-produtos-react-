@@ -1,0 +1,49 @@
+.produto-card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.produto-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.produto-card__imagem {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  background: #f1f5f9;
+}
+
+.produto-card__corpo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  flex: 1;
+}
+
+.produto-card__nome {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #0f172a;
+}
+
+.produto-card__descricao {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #475569;
+  flex: 1;
+}
+
+.produto-card__preco {
+  margin: 0.5rem 0 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #15803d;
+}
